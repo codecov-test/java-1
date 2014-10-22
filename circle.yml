@@ -1,3 +1,9 @@
 machine:
   java:
     - 20
+test:
+  post:
+    - codecov
+dependencies:
+  override:
+    - sudo pip install codecov
